@@ -96,8 +96,16 @@ markdown:    kramdown
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
 
+#github required configuration
+lsi: false
+safe: true
+source: wizetherapy
+incremental: false
+highlighter: rouge
 
 kramdown:
+  math_enginer: mathjax
+  syntax_highlighter: rouge
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
