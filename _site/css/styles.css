@@ -2668,8 +2668,8 @@ body, html { height: 100%; max-height: 100%; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { .blog-title { font-size: 24px; line-height: 24px; } }
 @media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) { .blog-title { margin-bottom: 50px; } }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { #header-inner { vertical-align: top; } }
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { #header-inner { vertical-align: top; } }
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { #header-inner { vertical-align: middle; } }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { #header-inner { vertical-align: middle; } }
 
 .blog-title span { display: block; }
 
