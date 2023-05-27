@@ -99,7 +99,6 @@ permalink:   /:categories/:title/
 #github required configuration
 lsi: false
 safe: true
-source: wizetherapy
 incremental: false
 highlighter: rouge
 
