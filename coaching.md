@@ -5,7 +5,7 @@ description: Coaching
 permalink: /coaching/
 ---
 <p class="text-justify">
-I provide Life Coaching services to adults who seek the support and
+I also provide Life Coaching services to adults who seek the support and
 accountability needed to achieve their goals. Life coaching is appropriate for
 individuals who want to achieve a new level of success in their personal or
 professional lives. I coach people through the obstacles that lie between them and
