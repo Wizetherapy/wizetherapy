@@ -12,6 +12,7 @@ permalink: /about/
   <li>I'm trained as a Doula which is a physical, emotional and informational support person for women and their families during pregnancy, birth and postpartum.</li>
   <li>I have advanced training in Emotionally Focused Therapy, Hypnotherapy & Nutritional Psychology.</li>
   <li>I've maintained a disciplined meditation practice for over 20 years and infuse my work with mindfulness and awareness as tools of self-empowerment.</li>
+  <li>Check out my feature in Marin Living Magazine <a href="https://marinlivingmagazine.com/bronwyn-wrobel-lmft-wize-therapy/">here</a></li>
 </ul>
 
 Click [here](https://www.hhs.gov/sites/default/files/ocr/privacy/hipaa/understanding/coveredentities/notice.pdf) for Notice of Privacy Practices for Protected Health Information.
