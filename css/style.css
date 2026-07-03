@@ -1,0 +1,641 @@
+html {
+
+    scroll-behavior: smooth;
+
+}
+/* ------------------------- */
+/* Reset */
+/* ------------------------- */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ------------------------- */
+/* Body */
+/* ------------------------- */
+
+body{
+
+    background:#1B120C;
+
+    color:#F7EFDD;
+
+    font-family:'Crimson Text', serif;
+
+}
+
+/* ------------------------- */
+/* Header */
+/* ------------------------- */
+
+header {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    padding: 35px 80px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    z-index: 100;
+
+    background: linear-gradient(
+        rgba(0,0,0,.25),
+        transparent
+    );
+
+}
+
+.logo{
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:34px;
+
+    color:#F4E6C3;
+
+}
+
+nav {
+
+    display: flex;
+
+    gap: 50px;
+
+}
+
+nav a {
+
+    text-decoration: none;
+
+    color: #E4D8BC;
+
+    font-size: 19px;
+
+    letter-spacing: 1px;
+
+    transition: .3s;
+
+    position: relative;
+
+}
+
+nav a:hover {
+
+    color: #D4AF37;
+
+}
+
+/* ------------------------- */
+/* Hero */
+/* ------------------------- */
+
+.hero {
+
+    height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 40px;
+
+    background:
+        linear-gradient(
+            rgba(22,14,8,.72),
+            rgba(22,14,8,.78)
+        ),
+
+        radial-gradient(
+            circle at top,
+            rgba(255,215,120,.18),
+            transparent 45%
+        ),
+
+        url("../images/library3.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
+
+}
+
+
+.hero-content{
+
+    max-width:850px;
+
+}
+.hero-star {
+
+    display: block;
+
+    width: 140px;
+
+    margin: 0 auto 30px auto;
+
+}
+.divider {
+
+    margin: 40px 0;
+
+    text-align: center;
+
+}
+
+.divider img {
+
+    width: 180px;
+
+    display: inline-block;
+
+}
+
+.subtitle{
+
+    color:#D4AF37;
+
+    letter-spacing:8px;
+
+    text-transform:uppercase;
+
+    font-size:14px;
+
+}
+
+h1{
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:110px;
+
+    font-weight:400;
+
+    margin:25px 0;
+
+}
+
+.description{
+
+    font-size:30px;
+
+    line-height:1.8;
+
+    color:#DCCBA8;
+
+}
+
+.divider{
+
+    margin:45px 0;
+
+    color:#D4AF37;
+
+    font-size:38px;
+
+}
+
+button {
+
+    background: #C9A44C;
+
+    color: #1B120C;
+
+    border: 1px solid rgba(255,255,255,.15);
+
+    padding: 18px 42px;
+
+    font-size: 22px;
+
+    font-family: 'Cormorant Garamond', serif;
+
+    letter-spacing: 1px;
+
+    cursor: pointer;
+
+    transition: all .35s ease;
+
+}
+
+button:hover {
+
+    background: #E5C56A;
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 12px 35px rgba(212,175,55,.25);
+
+}
+
+nav a::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: -8px;
+
+    width: 0;
+
+    height: 1px;
+
+    background: #D4AF37;
+
+    transition: .35s;
+
+}
+
+nav a:hover::after {
+
+    width: 100%;
+
+}
+
+/* ------------------------- */
+/* Chapter  1*/
+/* ------------------------- */
+.chapter {
+
+    /*
+    display:flex;
+
+    justify-content:center;
+
+    background:#F8F2E5;
+
+    color:#2B1A11;
+
+    padding:120px 0;
+    */
+
+    background: url("../images/chapter1.png");
+
+    color:#2B1A11;
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    padding: 120px 0;
+}
+
+
+.chapter-content {
+
+    max-width: 800px;
+
+    margin: auto;
+
+}
+
+.chapter-label {
+
+    color: #B78B2F;
+
+    text-transform: uppercase;
+
+    letter-spacing: 6px;
+
+    font-size: 14px;
+
+    margin-bottom: 20px;
+
+}
+
+.chapter h2 {
+
+    font-family: 'Cormorant Garamond', serif;
+
+    font-size: 64px;
+
+    font-weight: 400;
+
+    margin-bottom: 30px;
+
+}
+
+.chapter p{
+
+    font-size:28px;
+
+    line-height:1.8;
+
+    color:#39291D;
+
+}
+.chapter{
+
+    padding:160px 0;
+
+}
+.dropcap{
+
+    float:left;
+
+    width:200px;
+
+    margin-right:10px;
+
+    margin-top:8px;
+
+    margin-bottom:8px;
+
+}
+.ornament {
+
+    color: #C8A146;
+
+    font-size: 36px;
+
+    margin-bottom: 25px;
+
+}
+
+/* ------------------------- */
+/* Chapter 2 */
+/* ------------------------- */
+.chapter.two{
+
+    background: url("../images/chapter1.png");
+
+    color:#2B1A11;
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    padding: 120px 0;
+
+}
+
+.chapter.two p{
+
+    font-size:28px;
+
+    line-height:1.8;
+
+    color:#39291D;
+
+}
+
+.chapter.two h2{
+
+    font-family: 'Cormorant Garamond', serif;
+
+    font-size: 64px;
+
+    font-weight: 400;
+
+    margin-bottom: 30px;
+
+}
+.chapter{
+
+    padding:160px 0;
+
+}
+/* ------------------------- */
+/* Chapter 3 */
+/* ------------------------- */
+.chapter.three{
+
+    background: url("../images/chapter1.png");
+
+    color:#2B1A11;
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    padding: 120px 0;
+
+}
+
+.chapter.three p{
+
+    font-size:28px;
+
+    line-height:1.8;
+
+    color:#39291D;
+
+}
+
+.chapter.three h2{
+
+    font-family: 'Cormorant Garamond', serif;
+
+    font-size: 64px;
+
+    font-weight: 400;
+
+    margin-bottom: 30px;
+
+}
+.chapter{
+
+    padding:160px 0;
+
+}
+
+/* ------------------------- */
+/* Chapter 4 */
+/* ------------------------- */
+.chapter.four{
+
+    background: url("../images/chapter1.png");
+
+    color:#2B1A11;
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    padding: 120px 0;
+
+}
+
+.chapter.four p{
+
+    font-size:28px;
+
+    line-height:1.8;
+
+    color:#39291D;
+    
+    margin-bottom: 30px;
+
+}
+
+.chapter.four h2{
+
+    font-family: 'Cormorant Garamond', serif;
+
+    font-size: 64px;
+
+    font-weight: 400;
+
+    margin-bottom: 30px;
+
+}
+.ch4-dropcap{
+
+    float:left;
+
+    width:280px;
+
+    margin-right:10px;
+
+    margin-top:8px;
+
+    margin-bottom:8px;
+
+}
+.chapter.four{
+
+    padding:160px 0;
+
+}
+
+/* ==========================
+   Final Section
+========================== */
+
+.final-section {
+
+    background:
+        linear-gradient(
+            rgba(22,14,8,.65),
+            rgba(22,14,8,.65)
+        ),
+
+        url("../images/library.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    text-align: center;
+
+    padding: 180px 40px;
+
+}
+
+.final-content{
+
+    max-width:800px;
+
+    margin:auto;
+
+}
+
+.final-star-container,
+.portrait-container {
+
+    text-align: center;
+
+}
+
+.final-star{
+
+    width:140px;
+
+    margin-bottom:40px;
+
+}
+.self-portrait{
+
+    width:280px;
+
+}
+
+.final-section h2{
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:72px;
+
+    font-weight:400;
+
+    color:#F6E7BE;
+
+    margin-bottom:30px;
+
+}
+
+.final-section p{
+
+    color:#E6D8BC;
+
+    font-size:28px;
+
+    line-height:1.8;
+
+    margin-bottom:60px;
+
+}
+
+
+/* ==========================
+   Reusable Button
+========================== */
+
+.cta-button{
+
+    display:inline-block;
+
+    background:#C89D3D;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:20px 48px;
+
+    border-radius:4px;
+
+    font-size:22px;
+
+    letter-spacing:1px;
+
+    transition:.3s;
+
+}
+
+.cta-button:hover{
+
+    background:#D9AF52;
+
+    transform:translateY(-2px);
+
+}
