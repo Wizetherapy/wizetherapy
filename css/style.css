@@ -301,7 +301,6 @@ nav a:hover::after {
     padding: 120px 0;
 }
 
-
 .chapter-content {
 
     max-width: 800px;
@@ -343,11 +342,6 @@ nav a:hover::after {
     line-height:1.8;
 
     color:#39291D;
-
-}
-.chapter{
-
-    padding:160px 0;
 
 }
 .dropcap{
@@ -413,11 +407,6 @@ nav a:hover::after {
     margin-bottom: 30px;
 
 }
-.chapter{
-
-    padding:160px 0;
-
-}
 /* ------------------------- */
 /* Chapter 3 */
 /* ------------------------- */
@@ -458,11 +447,7 @@ nav a:hover::after {
     margin-bottom: 30px;
 
 }
-.chapter{
 
-    padding:160px 0;
-
-}
 
 /* ------------------------- */
 /* Chapter 4 */
