@@ -117,15 +117,17 @@ nav a:hover {
     padding: 40px;
 
     background:
+    /*
         linear-gradient(
-            rgba(22,14,8,.72),
-            rgba(22,14,8,.78)
+            rgba(22,14,8,0),
+            rgba(22,14,8,0)
         ),
+    */
 
         radial-gradient(
             circle at top,
-            rgba(255,215,120,.18),
-            transparent 45%
+            rgba(22,14,8),
+            transparent 90%
         ),
 
         url("../images/library3.png");
@@ -527,9 +529,16 @@ nav a:hover::after {
 .final-section {
 
     background:
+    /*
         linear-gradient(
             rgba(22,14,8,.65),
             rgba(22,14,8,.65)
+        ),
+    */
+        radial-gradient(
+            circle at top,
+            rgba(22,14,8),
+            transparent 90%
         ),
 
         url("../images/library.png");
