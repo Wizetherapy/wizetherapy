@@ -41,11 +41,11 @@ header {
 
     width: 100%;
 
-    padding: 35px 80px;
+    padding: 35px 0;
 
     display: flex;
 
-    justify-content: space-between;
+    justify-content: center;
 
     align-items: center;
 
@@ -276,17 +276,7 @@ nav a:hover::after {
 /* ------------------------- */
 .chapter {
 
-    /*
-    display:flex;
-
-    justify-content:center;
-
-    background:#F8F2E5;
-
-    color:#2B1A11;
-
-    padding:120px 0;
-    */
+    position: relative;
 
     background: url("../images/chapter1.png");
 
@@ -299,6 +289,26 @@ nav a:hover::after {
     background-repeat: no-repeat;
 
     padding: 120px 0;
+
+}
+.chapter-divider {
+
+    position:absolute;
+
+    left:50%;
+
+    bottom:-45px;
+
+    transform:translateX(-50%);
+
+    width:900px;
+
+    max-width:90%;
+
+    z-index:50;
+
+    pointer-events:none;
+
 }
 
 .chapter-content {
@@ -622,5 +632,35 @@ nav a:hover::after {
     background:#D9AF52;
 
     transform:translateY(-2px);
+
+}
+
+/* ===========================
+   Vine Divider
+=========================== */
+
+.vine-divider {
+
+    position: relative;
+
+    margin-top: -90px;
+
+    margin-bottom: -90px;
+
+    text-align: center;
+
+    z-index: 100;
+
+}
+
+.vine-divider img {
+
+    display: block;
+
+    width: 900px;
+
+    max-width: 90%;
+
+    margin: auto;
 
 }
