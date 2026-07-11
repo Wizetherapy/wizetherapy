@@ -11,7 +11,7 @@ practice:
 I work with Individuals and Couples to create meaning and purpose through life's challenges. With honest self reflection, acountability and acceptance, you empower yourself to navigate anxiety, depression, trauma, relationships and self worth in new and lasting ways.`,
 
 journey: 
-`Healing isn't about becoming someone different. It is about discovering who you have always been beneath fear, pain and expectation. The key to unlocking joy, ease and potential is believing in your own mythic, hero's quest. 
+`Healing isn't about becoming someone different. It is about discovering who you have always been beneath fear, pain and expectation. The key to unlocking joy, ease and potential is believing in your own mythic hero's quest. 
 
 It is through self love, acceptance and trust that you free yourself from definitions and beliefs that limit you. When you heal your relationship to your self first, everything else in your world mirrors that back. It's time to stop settling and prioritize your personal transformation.`,
 
