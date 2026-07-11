@@ -274,23 +274,20 @@ nav a:hover::after {
 }
 
 /* ------------------------- */
-/* Chapter  1*/
+/* Chapters
 /* ------------------------- */
 .chapter {
 
     position: relative;
 
-    background: url("../images/chapter1.png");
-
-    color:#2B1A11;
-
+    background-image: url("../images/chapter1.png");
     background-size: cover;
-
     background-position: center;
-
     background-repeat: no-repeat;
 
-    padding: 120px 0;
+    color: #2B1A11;
+
+    padding: 120px 40px;
 
 }
 .chapter-divider {
@@ -315,9 +312,11 @@ nav a:hover::after {
 
 .chapter-content {
 
-    max-width: 800px;
+    width: 100%;
 
-    margin: auto;
+    max-width: 760px;
+
+    margin: 0 auto;
 
 }
 
@@ -379,66 +378,6 @@ nav a:hover::after {
 
 }
 
-/* ------------------------- */
-/* Chapter 2 */
-/* ------------------------- */
-.chapter.two{
-
-    background: url("../images/chapter1.png");
-
-    color:#2B1A11;
-
-    background-size: cover;
-
-    background-position: center;
-
-    background-repeat: no-repeat;
-
-    padding: 120px 0;
-
-}
-
-/* ------------------------- */
-/* Chapter 3 */
-/* ------------------------- */
-.chapter.three{
-
-    background: url("../images/chapter1.png");
-
-    color:#2B1A11;
-
-    background-size: cover;
-
-    background-position: center;
-
-    background-repeat: no-repeat;
-
-    padding: 120px 0;
-
-}
-
-
-
-
-/* ------------------------- */
-/* Chapter 4 */
-/* ------------------------- */
-.chapter.four{
-
-    background: url("../images/chapter1.png");
-
-    color:#2B1A11;
-
-    background-size: cover;
-
-    background-position: center;
-
-    background-repeat: no-repeat;
-
-    padding: 120px 0;
-
-}
-
 .ch4-dropcap{
 
     float:left;
@@ -452,11 +391,7 @@ nav a:hover::after {
     margin-bottom:8px;
 
 }
-.chapter.four{
 
-    padding:160px 0;
-
-}
 
 /* ==========================
    Final Section
@@ -671,16 +606,17 @@ nav a:hover::after {
 
     .chapter {
 
-        padding: 90px 25px;
+        padding: 80px 24px;
 
     }
 
     .chapter-content {
 
-    width: 100%;
-    max-width: 650px;
-    margin: 0 auto;
-    padding: 0 12px;
+        width: 100%;
+
+        max-width: 650px;
+
+        margin: 0 auto;
 
     }
 
@@ -696,7 +632,6 @@ nav a:hover::after {
     .chapter p {
 
         font-size: 22px;
-        max-width: 36ch;
         margin: 0 auto;
         line-height: 1.8;
 
