@@ -3,12 +3,12 @@ const content = {
 invitation: 
 `ealing begins by creating a space where your story can be heard without judgment. When you feel seen and understood, you remember that you matter and your life experience has value. 
 
-Life is hard and no one should be navigting it alone. You may feel lost, confused, stressed and depressed. Maybe you've been repeating the same patterns for too long. You need new ideas, fresh perspectives and trusted guidance to achieve the next stage of growth.`,
+Life is hard and no one should be navigating it alone. You may feel lost, confused, stressed and depressed. Maybe you've been repeating the same patterns for too long. You need new ideas, fresh perspectives and trusted guidance to achieve the next stage of growth.`,
 
 practice: 
 `Therapy is a conversation rooted in curiosity, compassion and respect. Rather than offering quick answers, we'll take the time to understand your unique experiences, helping you reconnect with your own wizdom and move toward meaningful change.
 
-I work with Individuals and Couples to create meaning and purpose through life's challenges. With honest self reflection, acountability and acceptance, you empower yourself to navigate anxiety, depression, trauma, relationships and self worth in new and lasting ways.`,
+I work with Individuals and Couples to create meaning and purpose through life's challenges. With honest self reflection, accountability and acceptance, you empower yourself to navigate anxiety, depression, trauma, relationships and self worth in new and lasting ways.`,
 
 journey: 
 `Healing isn't about becoming someone different. It is about discovering who you have always been beneath fear, pain and expectation. The key to unlocking joy, ease and potential is believing in your own mythic hero's quest. 

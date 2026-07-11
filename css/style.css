@@ -303,9 +303,9 @@ nav a:hover::after {
 
     transform:translateX(-50%);
 
-    width:900px;
+    width:90%;
 
-    max-width:90%;
+    max-width:900px;
 
     z-index:50;
 
