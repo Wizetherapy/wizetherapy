@@ -398,27 +398,6 @@ nav a:hover::after {
 
 }
 
-.chapter.two p{
-
-    font-size:28px;
-
-    line-height:1.8;
-
-    color:#39291D;
-
-}
-
-.chapter.two h2{
-
-    font-family: 'Cormorant Garamond', serif;
-
-    font-size: 64px;
-
-    font-weight: 400;
-
-    margin-bottom: 30px;
-
-}
 /* ------------------------- */
 /* Chapter 3 */
 /* ------------------------- */
@@ -438,27 +417,7 @@ nav a:hover::after {
 
 }
 
-.chapter.three p{
 
-    font-size:28px;
-
-    line-height:1.8;
-
-    color:#39291D;
-
-}
-
-.chapter.three h2{
-
-    font-family: 'Cormorant Garamond', serif;
-
-    font-size: 64px;
-
-    font-weight: 400;
-
-    margin-bottom: 30px;
-
-}
 
 
 /* ------------------------- */
@@ -480,29 +439,6 @@ nav a:hover::after {
 
 }
 
-.chapter.four p{
-
-    font-size:28px;
-
-    line-height:1.8;
-
-    color:#39291D;
-    
-    margin-bottom: 30px;
-
-}
-
-.chapter.four h2{
-
-    font-family: 'Cormorant Garamond', serif;
-
-    font-size: 64px;
-
-    font-weight: 400;
-
-    margin-bottom: 30px;
-
-}
 .ch4-dropcap{
 
     float:left;
@@ -741,23 +677,31 @@ nav a:hover::after {
 
     .chapter-content {
 
-        width: 100%;
-
-        padding: 0;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 12px;
 
     }
 
     .chapter h2 {
 
         font-size: 42px;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
 
     }
 
     .chapter p {
 
         font-size: 22px;
+        max-width: 36ch;
+        margin: 0 auto;
+        line-height: 1.8;
 
     }
+
 
     .dropcap {
 
