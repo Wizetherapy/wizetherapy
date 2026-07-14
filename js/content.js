@@ -8,7 +8,7 @@ Life is hard and no one should be navigating it alone. You may feel <span style=
 practice: 
 `Therapy is a conversation rooted in curiosity, compassion and respect. Rather than offering quick answers, we'll take the time to understand your unique experiences, helping you reconnect with your own wizdom and move toward meaningful change.
 
-I work with <span style="color: #306e01;">Individuals ($225/50 mins)</span> and <span style="color: #306e01;">Couples ($350/80 mins)</span> in <span style="color: #871a1a;">California, Oregon and Washington</span> virtually to create meaning and purpose through life's challenges. With honest self reflection, accountability and acceptance, you empower yourself to navigate <span style="color: #1536a3;">anxiety, depression, transitions, relationships and self worth</span> in new and lasting ways.`,
+I work with <span style="color: #306e01;">Individuals</span> and <span style="color: #306e01;">Couples</span> in <span style="color: #871a1a;">California, Oregon and Washington</span> virtually to create meaning and purpose through life's challenges. With honest self reflection, accountability and acceptance, you empower yourself to navigate <span style="color: #1536a3;">anxiety, depression, transitions, relationships and self worth</span> in new and lasting ways.`,
 
 journey: 
 `Healing isn't about becoming someone different. It is about discovering who you have always been <span style="color: #871a1a;">beneath fear, pain and expectation.</span> The key to unlocking joy, ease and potential is believing in your own mythic hero's quest. 
